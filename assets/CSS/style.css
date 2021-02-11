@@ -2,7 +2,21 @@ header{
     text-align: center;
 }
 
-.nav-wrapper{
+nav{
+    margin-bottom:50px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+div.nav-wrapper{
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -19,20 +33,41 @@ ul.foot li, ul.foot li p{
 
 div.foot-text{
     text-align: center;
+    margin-top: 30px;
 }
 
 footer{
     background-color: gray;
-    max-height: 85px;
+    
 }
-
-/* i.git-foot {
-    position: relative;
-    left: 50px;
-    bottom: 30px;
-} */
 
 div.social-media{
     position: relative;
-    bottom:25px;
+    bottom:20px;
+}
+
+div.about-me{
+    border:2px solid black;
+    border-radius: 2.5%;
+    margin-top: 20px;
+}
+
+div.image-me > img{
+    top:-10%;
+    border:2px solid blue;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin: 5%;
+    
+}
+
+div.about-me > h3 {
+    position:relative;
+    bottom: 40px;
+    font-size: 30px;
+    margin-left: 3%;
+    background-color: white;
+    max-width: fit-content;
+    margin-bottom: -30px;
 }
