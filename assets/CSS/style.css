@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+}
+
+.nav-wrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav > div> div> div > div > a > i.fa-linkedin-in{
+    position:relative;
+    right: 50px;
+}
+
+ul.foot li, ul.foot li p{
+    display: inline;
+    padding: 2px;
+}
+
+div.foot-text{
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    max-height: 85px;
+}
+
+/* i.git-foot {
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+} */
+
+div.social-media{
+    position: relative;
+    bottom:25px;
+}
