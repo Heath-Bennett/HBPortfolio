@@ -33,11 +33,11 @@ ul.foot li, ul.foot li p{
 
 div.foot-text{
     text-align: center;
-    margin-top: 30px;
 }
 
 footer{
     background-color: gray;
+    max-height: 100px;
     
 }
 
@@ -46,9 +46,9 @@ div.social-media{
     bottom:20px;
 }
 
-div.about-me{
+div.about-me, div.projects{
     border:2px solid black;
-    border-radius: 2.5%;
+    border-radius: 5px;
     margin-top: 20px;
 }
 
@@ -56,13 +56,16 @@ div.image-me > img{
     top:-10%;
     border:2px solid blue;
     border-radius: 5px;
-    width: 100%;
-    height: auto;
     margin: 5%;
     
 }
 
-div.about-me > h3 {
+img {
+    width: 100%;
+    height: auto;
+}
+
+div.about-me > h3, div.projects > h3 {
     position:relative;
     bottom: 40px;
     font-size: 30px;
@@ -70,4 +73,38 @@ div.about-me > h3 {
     background-color: white;
     max-width: fit-content;
     margin-bottom: -30px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
+
+h3 {
+    font-family: 'Lobster', cursive;
+}
+
+div.flex-center-vertically {
+    position: relative;
+    left: 30px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a > img {
+    border: 3px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.projects {
+    text-align: center;
+}
+
+a.repoLink {
+    font-size: 14px;
+}
+
+div.projectLinks {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
