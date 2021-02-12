@@ -2,10 +2,6 @@ header{
     text-align: center;
 }
 
-nav{
-    margin-bottom:50px;
-}
-
 body {
     display: flex;
     min-height: 100vh;
@@ -26,6 +22,11 @@ nav > div> div> div > div > a > i.fa-linkedin-in{
     right: 50px;
 }
 
+div.navigation {
+    background-color: #36454F;
+    border-bottom: 5px solid deepskyblue;
+}
+
 ul.foot li, ul.foot li p{
     display: inline;
     padding: 2px;
@@ -33,12 +34,19 @@ ul.foot li, ul.foot li p{
 
 div.foot-text{
     text-align: center;
+    color: white;
 }
 
 footer{
-    background-color: gray;
+    background-color: #36454F;
     max-height: 100px;
+    margin-top: 20px;
+    border-top: 5px solid deepskyblue;
     
+}
+
+a > i {
+    color: white;
 }
 
 div.social-media{
@@ -46,15 +54,16 @@ div.social-media{
     bottom:20px;
 }
 
-div.about-me, div.projects{
-    border:2px solid black;
+div.about-me, div.projects, div.contact{
+    border:3px solid #36454F;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
+    box-shadow: deepskyblue 0 0 0 3px;
 }
 
 div.image-me > img{
     top:-10%;
-    border:2px solid blue;
+    border:2px solid #36454F;
     border-radius: 5px;
     margin: 5%;
     
@@ -65,16 +74,37 @@ img {
     height: auto;
 }
 
-div.about-me > h3, div.projects > h3 {
+div.about-me > h3, div.projects > h3, div.contact > h3{
     position:relative;
-    bottom: 40px;
-    font-size: 30px;
+    bottom: 50px;
+    font-size: 40px;
     margin-left: 3%;
     background-color: white;
     max-width: fit-content;
     margin-bottom: -30px;
     padding-left: 2px;
     padding-right: 2px;
+    -webkit-text-stroke:1px deepskyblue;;
+    -webkit-text-fill-color:#36454F;
+}
+
+div > i {
+    -webkit-text-stroke:1px #36454F;
+    -webkit-text-fill-color:deepskyblue;
+}
+
+h1{
+    font-family: 'Arizonia', cursive;
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+    font-size: 80px;
+}
+
+h2{
+    font-family: 'Bree Serif', serif;
+    font-size: 48px;
+    position: relative;
+    top:-44px;
 }
 
 h3 {
@@ -90,7 +120,7 @@ div.flex-center-vertically {
 }
 
 a > img {
-    border: 3px solid red;
+    border: 3px solid #36454F;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -108,3 +138,32 @@ div.projectLinks {
     margin-top: 20px;
 }
 
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button.btn {
+    background-color: deepskyblue;
+    border: 2px solid #36454F;
+}
+
+button.btn:hover {
+    background-color: #36454F;
+    border: 2px solid deepskyblue;
+}
+
+img.thumbnail:hover{
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: 300px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+
+span {
+    font-size: 18px;
+    font-family: 'Bree Serif', Serif;
+}

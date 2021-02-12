@@ -6,9 +6,12 @@
         <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Bree+Serif&family=Lobster&display=swap" rel="stylesheet">
         <script type = "text/javascript"  src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>	 
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <title>Heath Bennett - Portfolio</title>
+
         <link rel="stylesheet" href="./assets/CSS/style.css">
 
     </head>
@@ -25,7 +28,7 @@
         </header>
         <nav>
             <div class="row">
-                <div class="col s12 m12 l12">
+                <div class="col s12 m12 l12 navigation">
                     <div class="nav-wrapper">
                         <div class="font-icon brand-logo right">
                             <a href="https://www.linkedin.com/in/heath-bennett-9a2784184" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
@@ -56,7 +59,7 @@
                         
                         <p>In September of 2020 I graduated Summa Cum Laude from Great Bay Community College with an Associate degree in Computer Technologies and a certificate in Software Development.  I'm currently enrolled in UNH's Coding Bootcamp with the goal of earning a certificate as a fullstack developer featuring the MERN stack (Mongo, Express, React, Node). </p>
 
-                        <p>I enjoy spending my free time with my family.  My hobbies include learning to play the guitar and harmonica, hiking, and mountain biking. I have a new found interest of playing with micro-processors and circuits. Particularly with the Basic Stamp and Raspberry Pi. I'll always be a fan of the Boston Red Sox and New England Patriots.</p>
+                        <p>I enjoy spending my free time with my family.  My hobbies include learning to play the guitar and harmonica, hiking, mountain biking, and outdoor cooking. I have a new found interest of playing with micro-processors and circuits. Particularly with the Basic Stamp and Raspberry Pi. I'll always be a fan of the Boston Red Sox and New England Patriots.</p>
                     </div>
                 </div>
 
@@ -64,28 +67,71 @@
                     <h3>Projects</h3>
                     <div class="col s12 m6 l3 projectLinks" >
                         <span>The Draught Picker</span>
-                        <a href="https://josephjlyons.github.io/DraughtPicker/" target="_blank"><img src="./assets/Images/websiteImage.png" alt="The Draught Picker Website" ></a>
+                        <a href="https://josephjlyons.github.io/DraughtPicker/" target="_blank"><img src="./assets/Images/websiteImage.png" class="thumbnail" alt="The Draught Picker Website" ></a>
 
                         <a class="repoLink" href="https://github.com/Josephjlyons/DraughtPicker" target="_blank">Draught Picker Repository</a>
                     </div>
                     <div class="col s12 m6 l3 projectLinks">
                         <span>Password Generator</span>
-                        <a href="https://heath-bennett.github.io/PasswordGenerator/" target="_blank"><img src="./assets/Images/screenShot.png" alt="Password Generator Website" ></a>
+                        <a href="https://heath-bennett.github.io/PasswordGenerator/" target="_blank"><img src="./assets/Images/screenShot.png" class="thumbnail" alt="Password Generator Website" ></a>
 
                         <a class="repoLink" href="https://github.com/Heath-Bennett/PasswordGenerator" target="_blank">Password Generator Repository</a>
                     </div>
                     <div class="col s12 m6 l3 projectLinks">
                         <span>Work Day Scheduler</span>
-                        <a href="https://heath-bennett.github.io/WorkDayScheduler/" target="_blank"><img src="./assets/Images/workDayImage.png" alt="Work Day Schedulers" ></a>
+                        <a href="https://heath-bennett.github.io/WorkDayScheduler/" target="_blank"><img src="./assets/Images/workDayImage.png" class="thumbnail" alt="Work Day Schedulers" ></a>
 
                         <a class="repoLink" href="https://github.com/Heath-Bennett/WorkDayScheduler" target="_blank">Work Day Scheduler Repository</a>
                     </div>
                     <div class="col s12 m6 l3 projectLinks">
                         <span>Weather Dashboard</span>
-                        <a href="https://heath-bennett.github.io/weatherDashboard/" target="_blank"><img src="./assets/Images/website.png" alt="Weather Dashboard" ></a>
+                        <a href="https://heath-bennett.github.io/weatherDashboard/" target="_blank"><img src="./assets/Images/website.png" class="thumbnail" alt="Weather Dashboard" ></a>
 
                         <a class="repoLink" href="https://github.com/Heath-Bennett/weatherDashboard" target="_blank">Weather Dashboard Repository</a>
                     </div>
+                </div>
+
+                <div class="row contact">
+                    <h3>Contact Me</h3>
+                    <form class="col s12 m12 l12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="icon_telephone" type="tel" class="validate">
+                                <label for="icon_telephone">Telephone</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">How Can I Help You?</label>
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="col s1 offset-s5 m1 offset-m5 l1 offset-l5">
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>  
+                    </form>
                 </div>
             </div>
 
