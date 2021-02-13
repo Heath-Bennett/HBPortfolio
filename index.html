@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Bree+Serif&family=Lobster&display=swap" rel="stylesheet">
+        <script type = "text/javascript" src ="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <title>Heath Bennett - Portfolio</title>
+
+        <link rel="stylesheet" href="./assets/CSS/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12 header">
+                        <h1>Heath Bennett</h1>
+                        <h2>Fullstack Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="row">
+                <div class="col s12 m12 l12 navigation">
+                    <div class="nav-wrapper">
+                        <div class="font-icon brand-logo right">
+                            <a href="https://www.linkedin.com/in/heath-bennett-9a2784184" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        </div>
+                        <div class="font-icon brand-logo right">
+                            <a href="https://github.com/Heath-Bennett" target="_blank"><i class="fab fa-github-alt fa-2x"></i></a>
+                        </div>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down">
+                            <li><a href="#about-me">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact-me">Contact Me</a></li>
+                            <li><a href="./assets/resume.pdf" target="_blank">Resume</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <main>
+            <div class="container">
+                <div class="row about-me" id="about-me">
+                    <h3>About Me</h3>
+
+                    <div class="col s11 m5 offset m1 l5 offset l1 image-me">
+                        <img src="./assets/Images/meAndKids.jpg"  alt="Image of Heath Bennett" >
+                    </div>
+
+                    <div class="col s6 m6 l6 text-me flex-center-vertically">
+                        <p>For the last eleven years I have been a stay at home dad during the day while working in a local pizza shop at night.  When my youngest son was a couple years away from starting kindergarten I decided to go back to school to earn a degree. </p>
+                        
+                        <p>In September of 2020 I graduated Summa Cum Laude from Great Bay Community College with an Associate degree in Computer Technologies and a certificate in Software Development.  I'm currently enrolled in UNH's Coding Bootcamp with the goal of earning a certificate as a fullstack developer featuring the MERN stack (Mongo, Express, React, Node). </p>
+
+                        <p>I enjoy spending my free time with my family.  My hobbies include learning to play the guitar and harmonica, hiking, mountain biking, and outdoor cooking. I have a new found interest of playing with micro-processors and circuits. Particularly with the Basic Stamp and Raspberry Pi. I'll always be a fan of the Boston Red Sox and New England Patriots.</p>
+                    </div>
+                </div>
+
+                <div class="row projects" id="projects">
+                    <h3>Projects</h3>
+                    <div class="col s12 m6 l3 projectLinks" >
+                        <span>The Draught Picker</span>
+                        <a href="https://josephjlyons.github.io/DraughtPicker/" target="_blank"><img src="./assets/Images/websiteImage.png" class="thumbnail" alt="The Draught Picker Website" ></a>
+
+                        <a class="repoLink" href="https://github.com/Josephjlyons/DraughtPicker" target="_blank">Draught Picker Repository</a>
+                    </div>
+                    <div class="col s12 m6 l3 projectLinks">
+                        <span>Password Generator</span>
+                        <a href="https://heath-bennett.github.io/PasswordGenerator/" target="_blank"><img src="./assets/Images/screenShot.png" class="thumbnail" alt="Password Generator Website" ></a>
+
+                        <a class="repoLink" href="https://github.com/Heath-Bennett/PasswordGenerator" target="_blank">Password Generator Repository</a>
+                    </div>
+                    <div class="col s12 m6 l3 projectLinks">
+                        <span>Work Day Scheduler</span>
+                        <a href="https://heath-bennett.github.io/WorkDayScheduler/" target="_blank"><img src="./assets/Images/workDayImage.png" class="thumbnail" alt="Work Day Schedulers" ></a>
+
+                        <a class="repoLink" href="https://github.com/Heath-Bennett/WorkDayScheduler" target="_blank">Work Day Scheduler Repository</a>
+                    </div>
+                    <div class="col s12 m6 l3 projectLinks">
+                        <span>Weather Dashboard</span>
+                        <a href="https://heath-bennett.github.io/weatherDashboard/" target="_blank"><img src="./assets/Images/website.png" class="thumbnail" alt="Weather Dashboard" ></a>
+
+                        <a class="repoLink" href="https://github.com/Heath-Bennett/weatherDashboard" target="_blank">Weather Dashboard Repository</a>
+                    </div>
+                </div>
+
+                <div class="row contact" id="contact-me">
+                    <h3>Contact Me</h3>
+                    <form class="col s12 m12 l12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="icon_telephone" type="tel" class="validate">
+                                <label for="icon_telephone">Telephone</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">How Can I Help You?</label>
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="col s1 offset-s5 m1 offset-m5 l1 offset-l5">
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>  
+                    </form>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12 foot-text">
+                        <ul class="foot">
+                            <li >
+                                Created by: Heath Bennett
+                            </li>
+                            <li>
+                                <a id="email" href="mailto:heathben418@gmail.com">heathben418@gmail.com</a>
+                            </li>
+                            <li>
+                                <p>&copy; February, 2021</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row social-media">    
+                
+                        <div class="font-icon col s1 offset-s5 m1 offset-m5 l1 offset-l5">
+                            <a href="https://www.linkedin.com/in/heath-bennett-9a2784184" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        </div>
+                        <div class="font-icon col s1 m1 l1">
+                            <a href="https://github.com/Heath-Bennett" target="_blank"><i class="fab fa-github-alt fa-2x git-foot"></i></a>
+                        </div>
+                    
+                </div>
+            </div>    
+        </footer>
+        <script src="https://kit.fontawesome.com/00f36c2501.js" crossorigin="anonymous"></script>
+    </body>
+</html>
