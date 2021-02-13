@@ -130,7 +130,13 @@ div.projects {
 }
 
 a.repoLink {
-    font-size: 14px;
+    font-size: 16x;
+}
+
+a.repoLink:hover{
+    font-size:20px;
+    -webkit-text-stroke:1px deepskyblue;;
+    -webkit-text-fill-color:#36454F;
 }
 
 div.projectLinks {
@@ -157,7 +163,7 @@ img.thumbnail:hover{
     position: relative;
     top: -25px;
     left: -35px;
-    width: 300px;
+    width: 350px;
     height: auto;
     display: block;
     z-index: 999;
@@ -166,4 +172,14 @@ img.thumbnail:hover{
 span {
     font-size: 18px;
     font-family: 'Bree Serif', Serif;
+}
+
+i.fab:hover{
+    color: deepskyblue;
+
+}
+
+div.header {
+    position: relative;
+    top:20px;
 }
