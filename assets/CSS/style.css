@@ -39,10 +39,15 @@ div.foot-text{
 
 footer{
     background-color: #36454F;
-    max-height: 100px;
+    /* max-height: 110px; */
     margin-top: 20px;
     border-top: 5px solid deepskyblue;
     
+}
+
+#contact-info {
+    position: relative;
+    bottom:10px;
 }
 
 a > i {
@@ -51,7 +56,16 @@ a > i {
 
 div.social-media{
     position: relative;
-    bottom:20px;
+    bottom:40px;
+}
+
+div.social-media > div > a {
+    padding: 5px;
+}
+
+#name-copy {
+    position: relative;
+    bottom: -40px;
 }
 
 div.about-me, div.projects, div.contact{
@@ -121,12 +135,13 @@ div.flex-center-vertically {
 
 a > img {
     border: 3px solid #36454F;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
 }
 
 div.projects {
     text-align: center;
+    height: 400px;
 }
 
 a.repoLink {
