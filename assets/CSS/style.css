@@ -19,7 +19,7 @@ div.nav-wrapper{
 
 nav > div> div> div > div > a > i.fa-linkedin-in{
     position:relative;
-    right: 50px;
+    right: 40px;
 }
 
 div.navigation {
@@ -197,4 +197,118 @@ i.fab:hover{
 div.header {
     position: relative;
     top:20px;
+}
+
+@media only screen and (max-width: 995px){
+    img.thumbnail:hover{
+        position: relative;
+        top: -15px;
+        left: -25px;
+        width: 400px;
+        height: auto;
+        display: block;
+        z-index: 999;
+    }
+
+    div.projects {
+        height: 900px;
+    }
+
+    img.thumbnail {
+        width:350px;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 850px){
+
+    img.thumbnail:hover{
+        position: relative;
+        top: -15px;
+        left: -25px;
+        width: 350px;
+        height: auto;
+        display: block;
+        z-index: 999;
+    }
+
+    img.thumbnail {
+        width:300px;
+        height: auto;
+    }
+
+    div.projects {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 735px){
+
+    img.thumbnail:hover{
+        position: relative;
+        top: 8px;
+        left:4px;
+        width: 250px;
+        height: auto;
+        display: block;
+        z-index: 999;
+    }
+
+    img.thumbnail {
+        width:225px;
+        height: auto;
+    }
+
+    div.projects {
+        height: 750px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    img.thumbnail:hover{
+        position: relative;
+        top: -15px;
+        left: -25px;
+        width: 450px;
+        height: auto;
+        display: block;
+        z-index: 999;
+    }
+
+    div.projects {
+        height: 900px;
+    }
+
+    img.thumbnail {
+        width:400px;
+        height: auto;
+    }
+
+    div.projects {
+        height: 1800px;
+    }
+
+    div.navigation > div > div > a {
+        position:relative;
+        top:15px;
+    }
+    
+}
+
+@media only screen and (max-width: 480){
+    
+
+    img.thumbnail:hover{
+        position: relative;
+        top: -45px;
+        left: -55px;
+        width: 450px;
+        height: auto;
+        display: block;
+        z-index: 999;
+    }
+
+
 }
