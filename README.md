@@ -83,11 +83,19 @@ This section provides the user with means to contact the user through form submi
 
 &nbsp;
 
-## Colors Used
+## Colors Used 
 --------
 
 &nbsp;
 
-`#36454F`                  |  `#c5f015`                |`#FFFFFF`
+`#36454F`                  |  `#00BFFF`                |`#FFFFFF`
 :-------------------------:|:-------------------------:|:-------------------------:
-![#36454F](https://via.placeholder.com/150x300/36454F/000000?text=+)  | ![#c5f015](https://via.placeholder.com/150x300/c5f015/000000?text=+) | ![#FFFFFF](https://via.placeholder.com/150x300/FFFFFF/000000?text=+)
+![#36454F](https://via.placeholder.com/150x300/36454F/000000?text=+)  | ![#00BFFF](https://via.placeholder.com/150x300/00BFFF/000000?text=+) | ![#FFFFFF](https://via.placeholder.com/150x300/FFFFFF/000000?text=+)
+
+&nbsp;
+
+## License
+------------
+
+&nbsp;
+
