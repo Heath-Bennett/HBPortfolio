@@ -199,7 +199,7 @@ div.header {
     top:20px;
 }
 
-@media only screen and (max-width: 995px){
+@media only screen and (min-width: 851px) and (max-width: 995px){
     img.thumbnail:hover{
         position: relative;
         top: -15px;
@@ -221,7 +221,7 @@ div.header {
     
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (min-width: 736px) and (max-width: 850px){
 
     img.thumbnail:hover{
         position: relative;
@@ -243,7 +243,7 @@ div.header {
     }
 }
 
-@media only screen and (max-width: 735px){
+@media only screen and (min-width: 601px) and (max-width: 735px){
 
     img.thumbnail:hover{
         position: relative;
@@ -261,12 +261,12 @@ div.header {
     }
 
     div.projects {
-        height: 750px;
+        height: 600px;
     }
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 481px) and (max-width: 600px){
     img.thumbnail:hover{
         position: relative;
         top: -15px;
@@ -275,10 +275,6 @@ div.header {
         height: auto;
         display: block;
         z-index: 999;
-    }
-
-    div.projects {
-        height: 900px;
     }
 
     img.thumbnail {
@@ -295,19 +291,36 @@ div.header {
         top:15px;
     }
     
+    div.text-me{
+        position: relative;
+        left:126px;
+    }
 }
 
-@media only screen and (max-width: 480){
-    
+@media only screen and (min-width: 10px) and (max-width: 480px){
 
-    img.thumbnail:hover{
-        position: relative;
-        top: -45px;
-        left: -55px;
-        width: 450px;
-        height: auto;
-        display: block;
-        z-index: 999;
+    div.projects {
+        height: 1400px;
+    }
+
+    img.thumbnail {
+        width:300px;
+        height:auto;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        /* position: relative; */
+        font-size: 36px;
+        top: -36px;
+    }
+
+    div.text-me{
+       text-align: center;
+       position:relative;
+       left:90px;
     }
 
 
