@@ -37,6 +37,8 @@ __________________
 
 ![Screenshot of Portfolio](./assets/Images/portfolioScreenShot.png)
 
+[Table of Contents](#Table-of-Contents)
+
 &nbsp;
 
 ## About Me
@@ -44,9 +46,12 @@ __________________
 
 This section gives a brief personal background as well as recent education.
 
+
 &nbsp;
 
 ![Screenshot of About Me](./assets/Images/aboutMe.png)
+
+[Table of Contents](#Table-of-Contents)
 
 &nbsp;
 
@@ -58,6 +63,8 @@ This section list projects I have worked on.  For each project a title, screensh
 
 ![Screenshot of Projects](./assets/Images/projects.png)
 
+[Table of Contents](#Table-of-Contents)
+
 &nbsp;
 
 ## Contact Me
@@ -67,6 +74,8 @@ This section provides the user with means to contact the user through form submi
 &nbsp;
 
 ![Screenshot of Contact Me](./assets/Images/contactMe.png)
+
+[Table of Contents](#Table-of-Contents)
 
 &nbsp;
 
@@ -81,6 +90,8 @@ This section provides the user with means to contact the user through form submi
 
 [Materialize](https://materializecss.com/)
 
+[Table of Contents](#Table-of-Contents)
+
 &nbsp;
 
 ## Colors Used 
@@ -92,6 +103,8 @@ This section provides the user with means to contact the user through form submi
 :-------------------------:|:-------------------------:|:-------------------------:
 ![#36454F](https://via.placeholder.com/150x300/36454F/000000?text=+)  | ![#00BFFF](https://via.placeholder.com/150x300/00BFFF/000000?text=+) | ![#FFFFFF](https://via.placeholder.com/150x300/FFFFFF/000000?text=+)
 
+[Table of Contents](#Table-of-Contents)
+
 &nbsp;
 
 ## License
@@ -99,3 +112,26 @@ This section provides the user with means to contact the user through form submi
 
 &nbsp;
 
+MIT License
+
+Copyright (c) [2021] [Heath Bennett]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Table of Contents](#Table-of-Contents)
