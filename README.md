@@ -10,7 +10,7 @@ This site is the personal portfolio for Heath Bennett.  The page contains three 
 
 [Link to GitHub repository](https://github.com/Heath-Bennett/HBPortfolio)
 
-[Link to deployed page](https://heath-bennett.github.io/HBPortfolio/)
+[Link to deployed page](ind)
 
 &nbsp;
 
